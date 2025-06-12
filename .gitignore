@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+*.env
+.DS_Store
+*.log
+!Dockerfile
+!deploy.sh
+!requirements.txt

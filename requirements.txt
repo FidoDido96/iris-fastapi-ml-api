@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic>=2.0.0,<3.0.0  
+starlette 
+python-multipart
+requests
+scikit-learn
+joblib
+gunicorn
+pytest
+locust
+codecov
+pytest-cov
