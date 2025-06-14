@@ -19,23 +19,9 @@ The API provides an endpoint to receive new Iris flower measurements and return 
 * **Robust Input Validation:** ✅ Pydantic models for data validation, ensuring clean and expected input.
 * **Structured Project Layout:** 📁 Organized codebase for maintainability and scalability.
 
-## 📂 Project Structure
+📂 Project Structure
 
-iris_api/
-├── app.py                     # Main FastAPI application
-├── Dockerfile                 # Docker build instructions
-├── requirements.txt           # Python dependencies
-├── .gitignore                 # Files/folders to ignore in Git
-├── models/
-│   ├── ml/
-│   │   └── iris_dt_v1.joblib  # Pre-trained ML model
-│   └── schemas/
-│       └── iris.py            # Pydantic schemas for request/response
-│   └── classifier.py          # Model loading and prediction logic
-├── routes/
-│   └── v1/
-│       └── iris_predict.py    # API endpoint for Iris prediction
-└── train.py                   # Script to train and save the ML model
+![alt text](image.png)
 
 
 
@@ -129,3 +115,8 @@ curl -X 'POST' \
   -H 'Content-Type: application/json' \
   -d '{"data": [[4.8, 3.0, 4.0, 0.3], [2.1, 3.2, 1.1, 1.5]]}'
 ```
+
+## 🎥 Video Demonstration
+Check out the video demonstration for a comprehensive walkthrough of the project.
+
+[Watch the Video Demonstration Here](https://drive.google.com/file/d/1aBFTDfHhMC7PjWt-VAYlXGkkQ32oU5Af/view?usp=sharing)
